@@ -1,0 +1,410 @@
+.contain {
+  position: relative;
+}
+
+.pro-image {
+  opacity: 0.5;
+  display: block;
+  height: 250px;
+  width: 250px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.contain:hover .pro-image {
+  opacity: 0;
+}
+
+.contain:hover .middle {
+  opacity: 1;
+}
+.middle-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+header{
+  background-color: #f7f7f7;
+}
+.same-head{
+  font-weight: 700;
+  line-height: 2;
+  font-size: 2rem;
+}
+a:hover{
+    color:#bb141a!important;
+    text-decoration: none;
+}
+.logo_profile{
+    color: #bb141a;
+}
+.navbar-brand{
+    font-weight:900;
+    font-size: 18px;
+}
+.nav-item{
+    padding: 20px 15px !important;
+    font-size:13px;
+    color: #323232 !important;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight:600;
+    outline:none;
+    letter-spacing: 1px;
+}
+.nav-item.nav-link.say-hello{
+  background-color: #bb141a;
+  color: white !important;
+  font-weight: 400;
+  border-radius: 10px;
+}
+.social-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-btns .btn {
+  background-color: #bb141a !important;
+  color: #fff !important;
+  border-radius: 60%;
+  margin: 0 2%;
+}
+.social-btns .btn:hover{
+    background-color: #fff !important;
+    color: #bb141a !important;
+    border: 1px solid #bb141a;
+}
+.social-btns .btn .fa {
+  font-size: 16px;
+}
+.img_profile{
+  width: 150px;
+  height: 155px;
+  border-radius: 80px;
+}
+
+.para-first{
+  line-height:1;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.inner-para{
+  color: #bb141a;
+}
+.para-second{
+  line-height:2;
+  font-weight: 600;
+  font-size: 22px;
+}
+.para-third{
+  line-height: 2;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.sec-fourth{
+  background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.details-about{
+  font-weight: 300;
+  line-height: 1.9;
+  text-align: center;
+  font-size: 18px;
+}
+.details-1{
+  margin: 0 auto;
+  width: 67%;
+}
+.is-skill-icon{
+  width: 75px;
+  height: 70px;
+  margin: 15px;
+}
+.title.is-size-4.is-spaced{
+  line-height: 2;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+.subtitle-para{
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.ul-li-list{
+  list-style: none;
+  color: #190A05;
+  font-weight: 400;
+}
+.ul-li-list li{
+  line-height: 2;
+}
+.ul-li-list li:hover{
+  color: #bb141a;
+}
+.progress{
+  height: 17px !important;
+  margin-bottom: 10px;
+}
+.title-living{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.name_copy{
+  color: #bb141a;
+  font-weight: 600;
+  text-decoration: none;
+}
+.modal-heading{
+  font-weight: 600;
+  font-size: 18px;
+  color: #bb141a;
+}
+.btn-sub-modal{
+  background-color: #bb141a;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.description{
+  font-size: 20px;
+  font-weight: 400;
+  width: 65%;
+  line-height: 1.5;
+}
+.designation{
+  font-size: 16px;
+  line-height: 1.5;
+}
+.carousel-indicators{
+  position: unset !important;
+}
+.carousel-indicators li{
+  background-color: #870000 !important;
+  width: 14px !important;
+  height: 14px !important;
+  
+}
+
+.projects-data{
+  background-color: #f7f7f7;
+}
+.inner-head{
+  font-size: 20px;
+  font-weight: 600;
+  color: #bb141a;
+}
+.project_link{
+  font-size: 14px;
+  color: #bb141a;
+  text-decoration: none;
+}
+
+.section1, .section2{
+  padding: 7rem 0;
+}
+.section3, .section4, .section5, .section6, .section7, .section8,.section10{
+  padding: 5rem 0;
+}
+.section4,.section6, .section8,.section9, .section10, .section11{
+  background-color: #f7f7f7;
+}
+footer{
+  padding: 3rem 0 0 0;
+}
+.section4 label{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.project-design, .interest-part{
+  font-size: 16px;
+}
+
+.myProject{
+  width: 60%;
+  font-size: 18px; 
+}
+.letsdoIt{
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  border:2px solid white;
+  border-radius: 25px;
+}
+.buttons-project:hover{
+  color: #bb141a !important;
+}
+
+.buttons-project{
+  color: #bb141a;
+  font-weight:600;
+  font-size: 22px;
+  border:2px solid #bb141a;
+  border-radius: 25px;
+}
+.startproject{
+  font-weight: 700;
+  font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+
+  .description{
+    font-size: 16px;
+    font-weight: 400;
+    width: 95%;
+    line-height: 1.4;
+  }
+  .designation{
+    font-size: 14px;
+    line-height: 1.4;
+  }
+ 
+  .startproject{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 2;
+  }
+  .same-head{
+    font-weight: 700;
+    line-height: 2;
+    font-size: 24px;
+  }
+  .nav-item.nav-link.say-hello{
+    width: 135px;
+  }
+  .para-first{
+    line-height:1.5;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "eurostile", sans-serif;
+  }
+  .inner-para{
+    color: #bb141a;
+  }
+  .para-second{
+    line-height:2;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .para-third{
+    line-height: 2;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .modal-heading{
+    font-weight: 600;
+    font-size: 16px;
+    color: #bb141a;
+  }
+  .form-group label{
+    font-size: 14px;
+  }
+  .details-1{
+    padding: 2rem 0;
+    margin: 0 auto;
+    width: 95%;
+  }
+  .details-about{
+    font-weight: 300;
+    line-height: 2;
+    text-align: center;
+    font-size: 14px;
+  }
+  #section2 div img{
+    width: 100%;
+  }
+  .progress{
+    height: 14px !important;
+  }
+  
+  .section4 label{
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .project-design,.interest-part{
+    font-size: 16px;
+  }
+
+  .title.is-size-4.is-spaced{
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .subtitle-para{
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .ul-li-list li{
+    line-height: 2;
+    font-size: 14px;
+  }
+ 
+  .myProject{
+    width: 90%;
+    font-size: 16px; 
+  }
+  .letsdoIt{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border:2px solid white;
+    border-radius: 22px;
+    line-height: 3;
+  }
+  .buttons-project{
+    color: #bb141a;
+    font-weight:600;
+    font-size: 18px;
+    border:2px solid #bb141a;
+    border-radius: 22px;
+  }
+
+
+
+
+  .sectionimg img{
+    width: 100%;
+  }
+  .section1, .section2{
+    padding: 2rem 0;
+  }
+  .section3, .section4, .section5, .section6, .section7, .section8,.section10{
+    padding: 3rem 0;
+  }
+  .section4,.section6, .section8,.section9, .section10, .section11{
+    background-color: #f7f7f7;
+  }
+  footer{
+    padding: 3rem 0 0 0;
+  }
+}
